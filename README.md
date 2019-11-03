@@ -1,2 +1,8 @@
-# TWITTER-and-FLU-DATA-ANALYSIS-AND-VISUALIZATIONS
-Developed US heat map using R based on flu and twitter data and various other visualizations.
+# Exploratory Data Analysis and Visualizations
+Performed EDA on flu data collected from CDC and compared with data collected from Twitter. 
+# Technologies Used:
+Python
+R
+Jupyter NoteBook
+RShiny
+
