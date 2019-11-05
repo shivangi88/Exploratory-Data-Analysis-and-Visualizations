@@ -1,15 +1,10 @@
 
-# Name: SHIvANGI TRIPATHI
-# Team Member: PRATIK SANGHVI
-
-#setwd = "C:/UB_Spring_Semester/Data_Intensive_Computing/Lab_1/part3/"
-
 install.packages("shiny")
 
 library(shiny)
 
 ui <- fluidPage(
-  titlePanel(h1("LAB1: DATA COLLECTION AND EXPLORATORY DATA ANALYSIS:",
+  titlePanel(h1("TITLE:EXPLORATORY DATA ANALYSIS AND VISUALIZATIONS:",
                 align="center")),
   sidebarLayout
   (
