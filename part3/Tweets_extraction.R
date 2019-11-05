@@ -28,7 +28,7 @@ extracted_flu_tweets <- subset(extracted_flu_tweets , extracted_flu_tweets$count
 extracted_flu_tweets <- subset(extracted_flu_tweets , extracted_flu_tweets$source != "Instagram")
 
 
-write.csv(extracted_flu_tweets, "C:\\Users\\yashi\\Downloads\\Spring2019\\DIC\\LAB_1\\Data\\Part3_Data\\tweet_refined_flu5.csv" , row.names = FALSE)
+write.csv(extracted_flu_tweets, "location_to_save_csv" , row.names = FALSE)
 
 
 #FEVER:- 
@@ -40,7 +40,7 @@ extracted_fever_tweets <- subset(extracted_fever_tweets , extracted_fever_tweets
 extracted_fever_tweets <- subset(extracted_fever_tweets , extracted_fever_tweets$source != "Instagram")
 
 
-write.csv(extracted_fever_tweets, "C:\\Users\\yashi\\Downloads\\Spring2019\\DIC\\LAB_1\\Data\\Part3_Data\\tweet_refined_fever5.csv" , row.names = FALSE)
+write.csv(extracted_fever_tweets, "location_to_save_csv" , row.names = FALSE)
 
 #FLU SEASON:- 
 fs_tweets<- search_tweets("flu season", n = 2000, include_rts = FALSE,type = "mixed","lang:en", geocode = lookup_coords("usa"),until="2019-03-06")
@@ -51,7 +51,7 @@ extracted_fs_tweets <- subset(extracted_fs_tweets , extracted_fs_tweets$country_
 extracted_fs_tweets <- subset(extracted_fs_tweets , extracted_fs_tweets$source != "Instagram")
 
 
-write.csv(extracted_fs_tweets, "C:\\Users\\yashi\\Downloads\\Spring2019\\DIC\\LAB_1\\Data\\Part3_Data\\tweet_refined_fluseason21_05.csv" , row.names = FALSE)
+write.csv(extracted_fs_tweets, "location_to_save_csv" , row.names = FALSE)
 
 
 #INFLUENZA:- 
@@ -63,4 +63,4 @@ extracted_influ_tweets <- subset(extracted_influ_tweets , extracted_influ_tweets
 extracted_influ_tweets <- subset(extracted_influ_tweets , extracted_influ_tweets$source != "Instagram")
 
 
-write.csv(extracted_influ_tweets, "C:\\Users\\yashi\\Downloads\\Spring2019\\DIC\\LAB_1\\Data\\Part3_Data\\tweet_refined_influenza6.csv" , row.names = FALSE)
+write.csv(extracted_influ_tweets, "location_to_save_csv" , row.names = FALSE)
