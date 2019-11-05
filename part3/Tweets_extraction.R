@@ -12,10 +12,10 @@ library(twitteR)
 library(ggplot2)
 library(ggmap)
 
-API_key<-"oLd1gMHLyiF0Fc3WDSpWyZauM"
-API_secret<-"wsNNPjRbf4txeS6v2w4QWGU7iUWwEN27rbqgqto7JI1kPPgUGb"
-Access_token<-"831018830570754048-akWdKQxNGl0bPh0i8DwFsDay2dgneXt"
-Access_secret<-"Nbo3dephOz86CR970s5ku0q6Z8naQsPCfVGJIzsw6YlKi"
+API_key<-"API_Key"
+API_secret<-"APi_Secret"
+Access_token<-"Access_token"
+Access_secret<-"Access_Secret"
 setup_twitter_oauth(API_key, API_secret, Access_token, Access_secret)
 
 #FLU:-
