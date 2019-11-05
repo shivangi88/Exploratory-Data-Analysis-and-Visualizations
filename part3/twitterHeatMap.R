@@ -1,7 +1,4 @@
 
-# Name: SHIVANGI TRIPATHI
-# Team Member:- PRATIK SANGHVI
-
 install.packages("revgeo")
 install.packages("rtweet")
 install.packages("devtools")
