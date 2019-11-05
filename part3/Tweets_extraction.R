@@ -1,7 +1,4 @@
 
-# Name: SHIVANGI TRIPATHI
-# Team Member: PRATIK SANGHVI
-
 install.packages("ggmap")
 install.packages("twitteR")
 install.packages("rtweet")
