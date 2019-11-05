@@ -18,7 +18,7 @@ library(revgeo)
 library(rtweet)
 library(twitteR)
 
-key1 <- 'AIzaSyC_8z-b3T_-P2bxTCHDCoaZBa8uwU9Vayk'
+key1 <- 'Google_API_Key'
 register_google(key=key1)
 #setwd("C:/Users/yashi/Downloads/Spring2019/DIC/LAB_1/Data/Part3_Data/")
 #FLU
