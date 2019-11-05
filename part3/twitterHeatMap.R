@@ -17,7 +17,7 @@ library(twitteR)
 
 key1 <- 'Google_API_Key'
 register_google(key=key1)
-#setwd("C:/Users/yashi/Downloads/Spring2019/DIC/LAB_1/Data/Part3_Data/")
+
 #FLU
 
 df1 <-read.csv("./Flu.csv")
